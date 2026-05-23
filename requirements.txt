@@ -1,0 +1,21 @@
+# Core pipeline
+pdfplumber
+pypdf2
+pymupdf
+pandas
+fastapi
+uvicorn[standard]
+streamlit
+pydantic>=2.0
+requests
+scikit-learn
+joblib
+
+# HuggingFace (ZSC)
+transformers>=4.38
+torch
+accelerate
+sentencepiece
+
+# Helyi LLM: Ollama külön telepítendő, a modell: mistral
+# huggingface_hub
